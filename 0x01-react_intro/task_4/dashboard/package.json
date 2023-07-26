@@ -1,7 +1,7 @@
 {
   "name": "dashboard",
   "version": "0.1.0",
-  "homepage": "https://github.com/AnnahNokutheza/alx-react.git",
+  "homepage": "https://AnnahNokutheza.github.io/dashboard",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
