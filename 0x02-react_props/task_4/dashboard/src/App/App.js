@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
+/* Components */
+import Notifications from '../Notifications/Notifications';
+import Header from '../Header/Header';
+import Login from '../Login/Login';
+import CourseList from '../CourseList/CourseList';
+import Footer from '../Footer/Footer';
+/* Proptypes */
+import { bool } from 'prop-types';
+/* Styles */
 import './App.css';
 
-function App() {
+function App({isLoggedIn}) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Notifications />
+      <div className="App">
+        <Header />
+        {isLoggedIn ? <CourseList /> : <Login />}
+        <Footer />
+      </div>
+    </>
   );
 }
+
+App.propTypes = {
+  isLoggedIn: bool,
+};
+
+App.defaultProps = {
+  isLoggedIn: true,
+};
 
 export default App;
