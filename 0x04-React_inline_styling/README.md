@@ -6,3 +6,14 @@
 * Allowed editors: vi, vim, emacs, Visual Studio Code
 * All the files should end with a new line
 * A README.md file, at the root of the folder of the project, is mandatory
+
+* Resources
+Read or watch:
+
+Aphrodite
+Inline styling
+Enzyme Render
+Enzyme Prop
+CSS Viewport
+CSS Media queries
+CSS Animations
