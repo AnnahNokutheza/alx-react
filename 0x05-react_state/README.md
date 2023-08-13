@@ -6,3 +6,17 @@
 * Allowed editors: vi, vim, emacs, Visual Studio Code
 * All the files should end with a new line
 * A README.md file, at the root of the folder of the project, is mandatory
+
+* Resources
+Read or watch:
+
+State and lifecycle
+SetState and State callback
+Context
+Forms and Controlled components
+Lifting State Up
+React Hooks
+Enzyme State
+Enzyme SetState
+Enzyme Instance
+Enzyme Simulate
